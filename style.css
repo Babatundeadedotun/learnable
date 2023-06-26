@@ -1,0 +1,803 @@
+*{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body{
+  font-family: 'Roboto', sans-serif;
+}
+
+.nav {
+  background-color: #134361;
+  position: fixed;
+  width: 100%;
+} /* when using position fixed,give a width of 100% but instead you can use position sticky with z-index 1 or -1 */
+
+.loginsignup{
+      display: none;
+    }
+
+.logo {
+  width: 10%;
+  margin-left: 150px;
+}
+
+.link {
+  color: white;
+  text-decoration: none;
+  margin: 10px 10px;
+  padding-top: 30px;
+  cursor: pointer;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+span {
+  color: white;
+  float: right;
+  margin-right: 150px;
+  margin-top: 20px;
+}
+
+.header {
+  width: 90%;
+  margin-bottom: 30px;
+  margin-top: 50px;
+}
+.middle {
+  height: 70vh;
+  background: linear-gradient(rgba(0, 0, 0, 0.5),rgba(0, 0, 0, 0.7)), url("img/middle.JPG");
+  background-size:cover;  /*same as 100% */
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.middle-text{
+text-align: center;
+padding: 140px;
+color: white;
+}
+
+.midtexthead{
+  font-size: 50px;
+}
+
+.midtextpar{
+
+  font-size: 30px;
+}
+
+.bottom {
+    text-decoration: slategray;
+    margin-bottom: 30px;
+    margin: 60px 300px;
+    text-decoration: none;
+    font-size: 20px;
+   color: #696969;
+}
+
+.learningpaths{
+
+    margin-top: 110px;
+    margin-bottom: 50px;
+    font-size: 17px;
+    color: #585858;
+    text-align: center;
+}
+
+.card{
+    width: 25%;
+    margin-left: 38%;
+    margin-top: 5%;
+    box-shadow: 0px 4px 8px 0 rgba(0,0,0,0.1), 0 6px 20px 0 rgba(0,0,0,0.19);
+    font-family: 'Roboto', sans-serif;
+    color: red;
+    align-items: center;
+    
+}
+
+.computer{
+  width: 100%;
+}
+
+  .head {
+  font-size: 20px;
+   margin-left: 37px;
+   margin-right: auto;
+   padding-left: 5%;
+  color: red;
+  width: 90%;
+  float: none;
+}
+ .paragraph{
+  font-size: 15px;
+  padding-left: 4%;
+ color: red;
+ width: 100%;
+ float: none;
+ padding:auto;
+ padding-bottom:80px
+ }
+
+  .genesys {
+    padding-left: 10px;
+ }
+
+ .genfree {
+  display: flex;
+  gap: 110px;
+  padding-bottom: 14px;
+  margin-bottom: 70px;
+ }
+
+ .footerdiv{
+display: flex;
+gap: 650px;
+margin-bottom: 0px;
+padding-bottom: 0px;
+ }
+
+ footer {
+  background-color: #134361;
+  height: 35vh;
+  color: white;
+width: 100%;
+margin-bottom: 0;
+padding: 0;
+ }
+
+ .learnablefooter{
+  margin-left: 150px;
+  padding-top: 23px;
+ }
+
+ .contact {
+    font-size: small;
+ }
+ .contactlink{
+  text-decoration: none;
+  color: white;
+ }
+
+ .terms {
+  padding-top: 3px;
+  margin-top: 20px;
+  padding-bottom: 70px;
+ }
+
+ .termslink{
+  text-decoration: none;
+  color: white;
+  padding-bottom: 50px;
+ }
+ .teachonline {
+  text-decoration: none;
+  color: white;
+  margin-top: 50px;
+padding-top: 50px;
+ }
+
+ .teachable{
+text-decoration: none;
+margin-left: 970px;
+ }
+
+ .teach{
+  text-decoration: none;
+  color: white;
+  margin-bottom: 0px;
+  padding-bottom: 50px;
+ }
+
+ .big{
+  font-size: x-large;
+ }
+
+ .newfree{
+  display: none;
+ }
+
+ @media screen and (max-width: 481px) {
+
+    .nav{
+      width: 100%;
+      margin-left: 0;
+      display: flex;
+    }
+
+    .logo {
+      width: 10%;
+      margin-left: 50px;
+      margin-top: 7px;
+    }
+    .linkspan{
+      margin-left: 50px;
+      margin-right: 0;
+      margin-bottom: 14px;
+    }
+
+    .bottom {
+      text-decoration: slategray;
+      text-decoration: none;
+     color: #696969;
+     height: 100vh;
+     margin: 60px 90px;
+     text-align: center;
+  }
+
+  .learningpaths{
+    margin-top: 90px;
+    font-size: 17px;
+    color: #585858;
+    text-align: center;
+}
+
+.card{
+  width: 60%;
+  margin-left: 25%;
+  box-shadow: 0px 4px 8px 0 rgba(0,0,0,0.1), 0 6px 20px 0 rgba(0,0,0,0.19);
+  font-family: 'Roboto', sans-serif;
+  color: red;
+  align-items: center;
+  justify-content: center;
+  padding-right: 20px;
+}
+.computer{
+  width: 108%;
+}
+
+.head {
+  font-size: 20px;
+   margin-left: 17px;
+   padding-left: 5%;
+  color: red;
+  width: 100%;
+  float: center;
+}
+
+.paragraph{
+  font-size: 15px;
+ color: red;
+ width: 95%;
+ padding:auto;
+ padding-bottom:80px;
+ padding-left: 40px;
+ text-align: center;
+ padding-top: 10px;
+ }
+ .genfree {
+  display: flex;
+  gap: 90px;
+  padding-bottom: 14px;
+  margin-bottom: 70px;
+ }
+
+ footer {
+  background-color: #134361;
+  height: 60vh;
+  color: white;
+  width: 100%;
+ }
+
+ .learnablefooter{
+  margin-left: 40px;
+  padding-top: 23px;
+ }
+
+   .footerdiv{
+    display: grid;
+    gap: 5px;
+     }
+
+     .terms {
+      padding-bottom: 70px;
+      margin-left: 40px;
+     }
+    
+     .termslink{
+      text-decoration: none;
+      color: white;
+     }
+
+     .teachable{
+      text-decoration: none;
+      margin-left: 40px;
+       }
+
+       .middle {
+        height: 70vh;
+        background: linear-gradient(rgba(0, 0, 0, 0.5),rgba(0, 0, 0, 0.7)), url("img/middle.JPG");
+        background-size:cover;  /*same as 100% */
+        background-repeat: no-repeat;
+        background-position: center;
+      }
+      
+      .middle-text{
+      text-align: center;
+      padding: 120px;
+      padding-right: 150px;
+      margin-left: 0;
+      color: white;
+      }
+
+      .midtexthead{
+        font-size: 40px;
+      }
+      
+      .midtextpar{
+      
+        font-size: 20px;
+      }
+
+      .header {
+        width: 90%;
+        margin-bottom: 30px;
+        margin-top: 50px;
+        margin-left: 25px;
+      }
+
+ }
+
+ @media screen and (max-width: 913px) {
+
+    .nav{
+      height: 8vh;
+    }
+    .logo{
+      margin-top: 15px;
+    }
+
+    .linkspan{
+      font-size: 38px;
+      margin-top: 20px;
+    }
+    .header{
+      margin-left: 120px;
+      margin-top: 100px;
+    }
+    .middle{
+      height: 40vh;
+      width: 118%;
+    }
+    .middle-text{
+      padding-top: 200px;
+    }
+    .midtexthead{
+      font-size: 65px;
+    }
+    .midtextpar{
+      font-size: 50px;
+    }
+    .bottom{
+      font-size: 55px;
+      width: 80%;
+      margin-left: 200px;
+    }
+    .learningpaths{
+      font-size: 48px;
+    }
+    .card{
+      width: 90%;
+      margin-left: 130px;
+    }
+    .head{
+      font-size: 50px;
+      margin-top: 20px;
+    }
+    .paragraph{
+      font-size: 50px;
+      width: 95%;
+      margin-top: 20px;
+    }
+    .genfree{
+      font-size: 55px;
+    }
+    .free{
+      margin-left: 40px;
+    }
+    footer{
+      width: 120%;
+    }
+
+    .footerdiv{
+      display: flex;
+      gap: 260px;
+      margin-bottom: 0px;
+      padding-bottom: 0px;
+       }
+
+
+    .learnablefooter{
+      font-size: 43px;
+      width: 130%;
+      margin-left: 150px;
+    }
+    .contactlink{
+      font-size: 40px;
+    }
+    .terms{
+      font-size: 40px;
+      width: 100%;
+  padding-bottom: 70px;
+  margin-left: 150px;
+    }
+
+ .contact{
+  font-size: 20px;
+ }
+ 
+ .contactlink{
+  font-size: 40px;
+ }
+ .termslink{
+  font-size: 35px;
+ }
+
+ .teachable{
+  text-decoration: none;
+  margin-left: 705px;
+  width: 35%;
+   }
+  
+   .teach{
+    text-decoration: none;
+    color: white;
+    margin-bottom: 0px;
+    padding-bottom: 50px;
+    font-size: 36px;
+    margin-left: 15px;
+   }
+  
+   .big{
+    font-size: 70px;
+    margin-left: 15px;
+   }
+  
+ }
+
+@media screen and (max-width: 376px) {
+  .footer{
+    height: 50vh;
+  }
+  .bottom{
+    height: 180vh;
+  }
+  
+}
+ @media screen and (max-width: 821px) {
+
+  .card{
+    margin-left: 170px;
+    width: 95%;
+  }
+  .middle{
+    width: 128%;
+  }
+  .footer{
+    width: 128%;
+  }
+  .teachable{
+    margin-left: 680px;
+  }
+  
+ }
+@media screen and (max-width: 769px) {
+
+  .logo{
+    margin-top: 10px;
+  }
+
+  .middle{
+    height: 60vh;
+  }
+
+  .bottom{
+    font-size: 45px;
+  }
+
+  .learningpaths{
+    font-size: 45px;
+  }
+
+  .card{
+    width: 103%;
+    margin-left: 150px;
+  }
+
+  .footer{
+    width: 133%;
+  }
+  .teachable{
+    margin-left: 660px;
+  }
+}
+@media screen and (max-width: 541px) {
+  .nav{
+    height: 13vh;
+  }
+
+  .logo{
+    margin-top: 18px;
+  }
+
+  .header{
+    margin-left: 170px;
+    width: 120%;
+  }
+
+  .middle{
+    width: 185%;
+    height: 90vh;
+  }
+
+  .bottom{
+    width: 130%;
+  }
+
+  .card{
+    width: 145%;
+    margin-left: 150px;
+  }
+
+  .footer{
+    width: 185%;
+    height: 50vh;
+  }
+  .teachable{
+    margin-left: 650px;
+  }
+  .learnablefooter{
+    margin-left: 80px;
+    font-size: 30px;
+  }
+}
+@media screen and (max-width: 281px) {
+
+  .nav{
+    height: 19vh;
+  }
+  .logo{
+    width: 13%;
+    height: 15vh;
+    padding-bottom: 20px;
+  }
+  .linkspan{
+  
+    padding-left: 150px;
+    font-size: 48px;
+    padding-top: -70px;
+    margin-top: -85px;
+  }
+
+  .header{
+    width: 265%;
+    height: 48vh;
+   
+  }
+
+  .middle{
+    width: 393%;
+    height: 120vh;
+  }
+  .middle-text{
+    padding-top: 290px;
+  }
+
+  .bottom{
+    width: 225%;
+    margin-left: 290px;
+  }
+  .card{
+    width: 300%;
+  }
+  .computer{
+    width: 102%;
+  }
+  
+  .footer{
+    width: 392%;
+    height: 95vh;
+  }
+  footer{
+    margin-left: 10px;
+  }
+  .footerdiv{
+    display: grid;
+    gap: 50px;
+  }
+  .terms{
+    margin-left: 90px;
+  }
+  .termslink{
+    font-size: 50px;
+  }
+  .contactlink{
+    font-size: 50px;
+  }
+  .learnablefooter{
+    font-size: 40px;
+  }
+  .teachable{
+    margin-left: 86px;
+    font-size: 30px;
+  }
+
+  .learnablefooter{
+    margin-left: 80px;
+    padding-top: 23px;
+   }
+  
+   .teachable{
+    text-decoration: none;
+    margin-left: 60px;
+     }
+}
+@media screen and (max-width: 413px) {
+
+  .nav{
+    height: 12vh;
+  }
+  .logo{
+    height: 9vh;
+    width: 18%;
+    margin-left: 90px;
+    }
+
+ .linkspan{
+  margin-left: 350px;
+  margin-top: -70px;
+ }
+
+.header{
+  width: 155%;
+  height: 32vh;
+}
+
+.middle{
+  width: 242%;
+}
+
+.bottom{
+  width: 152%;
+  height: 120vh;
+}
+.card{
+  width: 180%;
+  margin-left: 150px;
+}
+.computer{
+  width: 103%;
+}
+.genfree{
+  gap: 45px;
+  font-size: 55px;
+}
+.genesys{
+  font-size: 50px;
+}
+
+.footer{
+  width: 240%;
+}
+.learnablefooter{
+  font-size: 40px;
+  width: 200%;
+}
+.termslink{
+  font-size: 39px;
+  margin-right: 60px;
+}
+.teachable{
+  margin-left: 630px;
+}
+}
+/* @media screen and (max-width: 1024px) {
+
+  .link{
+    font-size: 25px;
+  }
+
+  .header{
+    margin-left: 60px;
+  }
+
+  .middle{
+    width: 105%;
+  }
+
+  .bottom{
+    font-size: 28px;
+  }
+  .learningpaths{
+    font-size: 25px;
+  }
+
+  .card{
+    width: 35%;
+  }
+  .head{
+    font-size: 25px;
+  }
+  .paragraph{
+    font-size: 23px;
+  }
+  .genfree{
+    gap: 59px;
+  }
+  .genesys{
+    font-size: 23px;
+  }
+  .free{
+    font-size: 23px;
+  }
+  .footer{
+    width: 106%;
+    height: 40vh;
+  }
+  .footerdiv{
+    gap: 420px;
+  }
+  .learnablefooter{
+    font-size: 28px;
+  }
+  .contactlink{
+    font-size: 20px;
+  }
+  .termslink{
+    font-size: 20px;
+  }
+  .teachable{
+    font-size: 22px;
+    width: 20%;
+    margin-left: 850px;
+  }
+}
+@media screen and (max-width: 1280px) {
+
+  .link{
+    font-size: 30px;
+  }
+  .header{
+    margin-left: 40px;
+  }
+  .bottom{
+    font-size: 30px;
+  }
+  .learningpaths{
+    font-size: 30px;
+  }
+  .card{
+    width: 50%;
+    margin-left: 300px;
+  }
+  .head{
+    font-size: 40px;
+  }
+  .paragraph{
+    font-size: 28px;
+  }
+  .genfree{
+    gap: 250px;
+    font-size: 30px;
+  }
+  .footerdiv{
+    gap: 500px;
+  }
+  .learnablefooter{
+    font-size: 30px;
+  }
+  .contactlink{
+    font-size: 25px;
+  }
+  .terms{
+    font-size: 26px;
+  }
+  .teachable{
+    font-size: 30px;
+    margin-left: 940px;
+  }
+  
+} */
