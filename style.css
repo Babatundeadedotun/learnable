@@ -484,7 +484,7 @@ margin-left: 970px;
   }
   
  }
-@media screen and (max-width: 769px) {
+@media screen and (max-width: 768px) {
 
   .logo{
     margin-top: 10px;
@@ -492,6 +492,7 @@ margin-left: 970px;
 
   .middle{
     height: 60vh;
+    width: 132%;
   }
 
   .bottom{
@@ -635,7 +636,7 @@ margin-left: 970px;
     margin-left: 60px;
      }
 }
-@media screen and (max-width: 413px) {
+@media screen and (max-width: 414px) {
 
   .nav{
     height: 12vh;
@@ -693,6 +694,45 @@ margin-left: 970px;
 .teachable{
   margin-left: 630px;
 }
+}
+@media screen and (max-width:390px) {
+  .header{
+    width: 170%;
+  }
+  .footerdiv{
+    gap: 150px;
+  }
+  .teachable{
+    margin-left: 550px;
+  }
+  
+}
+@media screen and (max-width: 360px) {
+  .bottom{
+    height: 140vh;
+  }
+  .genfree{
+    gap: 25px;
+  }
+  .genesys{
+    font-size: 45px;
+  }
+  .free{
+    font-size: 45px;
+  }
+  .learnablefooter{
+    font-size: 35px;
+  }
+  .termslink{
+    font-size: 35px;
+  }
+  .teachable{
+    margin-left: 510px;
+  }
+  .teach{
+    font-size: 30px;
+  }
+  
 }
 /* @media screen and (max-width: 1024px) {
 
